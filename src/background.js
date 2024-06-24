@@ -1,4 +1,4 @@
-console.log('mesffdfsage')
+
 chrome.commands.onCommand.addListener((command) => {
     if (command === 'copy-all') {
         getCurrentTab().then((tabId) => {
